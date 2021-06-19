@@ -90,3 +90,17 @@ main {
 #grade {
 	margin-top: 1rem;
 }
+
+.error-message {
+	font-weight: bold;
+	color: white;
+	background-color: #ff671b;
+	display: flex;
+	margin-top: -3.5rem;
+	transition: margin-top .4s;
+	padding: 1rem;
+}
+
+.display-error-message {
+	margin-top: 0;
+}
